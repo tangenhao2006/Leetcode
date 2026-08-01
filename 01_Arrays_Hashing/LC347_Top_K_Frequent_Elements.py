@@ -23,7 +23,8 @@ class Solution(object):
 
         return res
 # 先用字典统计每个数字的出现次数，再将（次数，数字）配对为列表，按次数降序排序，最后取前 k 个数字作为结果。
-#  Use a dictionary to count the frequency of each number, pair each (frequency, number) into a list, sort the list in descending order by frequency, and return the first k numbers.
+#  Use a dictionary to count the frequency of each number, pair each (frequency, number) into a list, sort the list in
+#  descending order by frequency, and return the first k numbers.
 
 # Complexity
 # Time Complexity: O(nlogn)

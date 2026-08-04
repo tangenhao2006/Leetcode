@@ -29,7 +29,8 @@ class Solution(object):
         return result
 
 # 数组排序，固定 i 并跳过重复，双指针 j、k 查找；命中答案后左右指针各自跳过连续重复元素，原生去重不用 set 提速。
-# Sort array, fix i and skip duplicates, use two pointers j&k; skip repeated values after matching triplet to deduplicate without set.
+# Sort array, fix i and skip duplicates, use two pointers j&k; skip repeated values after matching triplet to
+# deduplicate without set.
 # Complexity
 # Time: O(n2)
 # Space: O(logn)

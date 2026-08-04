@@ -12,7 +12,8 @@ class Solution(object):
         return new_str == new_str[::-1]
 
 # 用左右双指针从字符串两端向中间遍历，跳过非字母数字字符，将字符转为小写后对比，全部匹配则为回文。
-#  Use two pointers starting from both ends, skip non-alphanumeric characters, compare characters in lowercase, and return true if all pairs match.
+#  Use two pointers starting from both ends, skip non-alphanumeric characters, compare characters in lowercase,
+    #  and return true if all pairs match.
 
 # Complexity
 # Time Complexity: O(n)

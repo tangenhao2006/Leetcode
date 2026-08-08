@@ -13,7 +13,7 @@ class Solution:
             # i + j = left_total
             # 从 nums1 的左侧选取 i 个元素，放在合并后数组的左半部分
             # 从 nums2 的左侧选取 j 个元素，放在合并后数组的左半部分
-            if nums1[i -1] > nums2[j]:
+            if nums1[i - 1] > nums2[j]:
                 right = i - 1
             else:
                 left = i
